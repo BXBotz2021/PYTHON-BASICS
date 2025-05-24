@@ -1,5 +1,5 @@
-x = 45
+x = int(input("Enter a number: "))
 if 10 <= x <= 99:
-    print('two-digit')
+    print('its two digit')
 else:
-    print('not two-digit')
+    print('its not two digit')
