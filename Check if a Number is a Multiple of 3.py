@@ -1,5 +1,5 @@
-x = 12
+x = int(input("Enter a number: "))
 if x % 3 == 0:
-    print('multiple of 3')
+    print('Multiple of 3')
 else:
-    print('not a multiple of 3')
+    print('Not a multiple of 3')
