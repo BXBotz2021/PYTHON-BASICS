@@ -1,5 +1,5 @@
-x = -5
+x = float(input("Enter a number: "))
 if x >= 0:
-    print('positive')
+    print('Positive')
 else:
-    print('negative')
+    print('Negative')
