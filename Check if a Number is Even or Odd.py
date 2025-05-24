@@ -1,5 +1,5 @@
-x = 7
+x = int(input("Enter a number: "))
 if x % 2 == 0:
-    print('even')
+    print('Even')
 else:
-    print('odd')
+    print('Odd')
