@@ -1,6 +1,6 @@
-a = 5
-b = 3
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 if (a + b) % 2 == 0:
-    print('sum is even')
+    print('Sum is even')
 else:
-    print('sum id odd')
+    print('Sum is odd')
