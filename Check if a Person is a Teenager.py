@@ -1,5 +1,5 @@
-age = 16
+age = int(input("Enter age: "))
 if 13 <= age <= 19:
-    print('teenager')
+    print('Teenager')
 else:
-    print('not a teenager')
+    print('Not a teenager')
